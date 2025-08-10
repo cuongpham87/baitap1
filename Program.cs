@@ -1,8 +1,14 @@
-﻿class Program
+﻿public class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("hello the world");
+        DateTime dateTime = DateTime.Now;
+        Console.WriteLine($"{dateTime.Hour}:{dateTime.Minute}"); 
+
+
+
+
+
         
     }
 }
